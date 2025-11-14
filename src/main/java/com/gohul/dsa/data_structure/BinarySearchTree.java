@@ -107,8 +107,8 @@ public class BinarySearchTree {
             root.right = add(root.right, data);
         else return root;
 
-        int balFactor = findBalFactor(root);
-        root.height = 1 + Math.max(getHeight(root.left), getHeight(root.right));
+//        int balFactor = findBalFactor(root);
+//        root.height = 1 + Math.max(getHeight(root.left), getHeight(root.right));
 
         root.height = 1 + Math.max(getHeight(root.left), getHeight(root.right));
 
