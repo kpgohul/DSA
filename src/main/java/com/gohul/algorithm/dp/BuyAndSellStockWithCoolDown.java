@@ -1,6 +1,6 @@
 package com.gohul.algorithm.dp;
 
-public class BuyAndSellWithCoolDown {
+public class BuyAndSellStockWithCoolDown {
 
     public static int stockProfit(int[] prices) {
 
